@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>彩票</title>
+	<link rel="stylesheet" href="./css/index.css" />
+	<link rel="stylesheet" href="./css/main.css" />
+	<link rel="stylesheet" href="./css/swiper.min.css" />
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/headroom.min.js"></script>
+	<script>
+		window.onload = window.onresize = function(){
+			var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+			var _html = document.getElementsByTagName('html')[0];
+			view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		}
+	</script>
+	<script src="js/swiper.min.js"></script>
+	<style>
+		.swiper-container {
+			width: 100%;
+			overflow: hidden;
+		}
+		.swiper-slide a{
+			display: block;
+			background-position: center;
+			width: 100%;
+			overflow: hidden;
+		}
+		.swiper-slide {
+			width: 100%;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+	<div class="header header--fixed hide-from-print animated headroom--not-bottom slideDown headroom--top" id="header">
+		<a href="index.html" class="header_text">福利彩票</a>
+		<div class="login">
+			<a href="login.html">登录</a><span>/</span>
+			<a href="login.html">注册</a>
+		</div>
+	</div>
+	<div class="banner">
+		<div class="swiper-container swiper-container-horizontal">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<a href="###">
+						<img src="images/banner_01.png" alt="" />
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="###">
+						<img src="images/banner_02.png" alt="" />
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="###">
+						<img src="images/banner_03.png" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+	<div class="layout">
+		<div class="layou_top">
+			<div class="icon"></div>
+			<div class="auto">
+				<ul class="autop">
+					<li class="auto_list">
+						<a href="###">恭喜<span style="color: #03B118">sallan5337</span>河内五分彩喜中<span>1000元</span></a>
+					</li>
+					<li class="auto_list">
+						<a href="###">恭喜<span style="color: #03B118">webm</span>河内五分彩喜中<span>5000元</span></a>
+					</li>
+					<li class="auto_list">
+						<a href="###">恭喜<span style="color: #03B118">beijing3</span>河内五分彩喜中<span>10000元</span></a>
+					</li>
+					<li class="auto_list">
+						<a href="###">恭喜<span style="color: #03B118">beijing3</span>河内五分彩喜中<span>10000元</span></a>
+					</li>
+					<li class="auto_list">
+						<a href="###">恭喜<span style="color: #03B118">beijing3</span>河内五分彩喜中<span>10000元</span></a>
+					</li>
+					<li class="auto_list">
+						<a href="###">恭喜<span style="color: #03B118">beijing3</span>河内五分彩喜中<span>10000元</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="layou_b">
+			<div class="lay_menu"><img src="images/r2_c2.png" alt="" /></div>
+			<div class="lay_menu"><img src="images/r2_c3.png" alt="" /></div>
+			<div class="lay_menu"><img src="images/r2_c4.png" alt="" /></div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="con_top">
+			<div class="title">
+				<span class="tit ban"></span>
+				<span class="jurns">热门彩种</span>
+			</div>
+			<div class="more">
+				<a href="###">more»</a>
+			</div>
+		</div>
+		<div class="con_bto">
+			<ul class="con_list">
+				<li>
+					<a href="###">
+						<img src="images/49.png" alt="" />
+						<div class="text-d">
+							<p class="secr">江苏快三</p>
+							<p class="desc">火爆开售</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="images/48.png" alt="" />
+						<div class="text-d">
+							<p class="secr">印尼五分彩</p>
+							<p class="desc">全天24小时开售 拷贝</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="images/18.png" alt="" />
+						<div class="text-d">
+							<p class="secr">河内五分彩</p>
+							<p class="desc">五分钟一期</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="images/19.png" alt="" />
+						<div class="text-d">
+							<p class="secr">重庆时时彩</p>
+							<p class="desc">每天120期哦</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<ul class="con_list">
+				<li>
+					<a href="###">
+						<img src="images/50.png" alt="" />
+						<div class="text-d">
+							<p class="secr">新疆时时彩</p>
+							<p class="desc">2元赢取1800</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="images/21.png" alt="" />
+						<div class="text-d">
+							<p class="secr">十一运夺金</p>
+							<p class="desc">每天开奖78次</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="images/22.png" alt="" />
+						<div class="text-d">
+							<p class="secr">广东11选5</p>
+							<p class="desc">任选玩法，中奖率高</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="images/23.png" alt="" />
+						<div class="text-d">
+							<p class="secr">江西11选5</p>
+							<p class="desc">十分钟一期</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+<div class="content">
+		<div class="con_top">
+			<div class="title">
+				<span class="tit blu"></span>
+				<span class="jurns">更多彩种</span>
+			</div>
+			<div class="more">
+				<a href="###">more»</a>
+			</div>
+		</div>
+		<div class="con_bto">
+			<ul class="con_list">
+				<li>
+					<a href="###">
+						<img src="images/49.png" alt="" />
+						<div class="text-d">
+							<p class="secr">江苏快三</p>
+							<p class="desc">火爆开售</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="images/48.png" alt="" />
+						<div class="text-d">
+							<p class="secr">印尼五分彩</p>
+							<p class="desc">全天24小时开售 拷贝</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="images/18.png" alt="" />
+						<div class="text-d">
+							<p class="secr">河内五分彩</p>
+							<p class="desc">五分钟一期</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="images/19.png" alt="" />
+						<div class="text-d">
+							<p class="secr">重庆时时彩</p>
+							<p class="desc">每天120期哦</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<ul class="con_list">
+				<li>
+					<a href="###">
+						<img src="images/49.png" alt="" />
+						<div class="text-d">
+							<p class="secr">江苏快三</p>
+							<p class="desc">火爆开售</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="images/48.png" alt="" />
+						<div class="text-d">
+							<p class="secr">印尼五分彩</p>
+							<p class="desc">全天24小时开售 拷贝</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="images/18.png" alt="" />
+						<div class="text-d">
+							<p class="secr">河内五分彩</p>
+							<p class="desc">五分钟一期</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="images/19.png" alt="" />
+						<div class="text-d">
+							<p class="secr">重庆时时彩</p>
+							<p class="desc">每天120期哦</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<ul class="con_list">
+				<li>
+					<a href="###">
+						<img src="images/49.png" alt="" />
+						<div class="text-d">
+							<p class="secr">江苏快三</p>
+							<p class="desc">火爆开售</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="images/48.png" alt="" />
+						<div class="text-d">
+							<p class="secr">印尼五分彩</p>
+							<p class="desc">全天24小时开售 拷贝</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="images/18.png" alt="" />
+						<div class="text-d">
+							<p class="secr">河内五分彩</p>
+							<p class="desc">五分钟一期</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="images/19.png" alt="" />
+						<div class="text-d">
+							<p class="secr">重庆时时彩</p>
+							<p class="desc">每天120期哦</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer">
+	</div>
+	<div class="nav">
+		<div class="nav_lsit">
+			<a href="###" class="nav_a"><img src="images/32.png" alt="" /></a>
+			<a href="###" class="text-a">购彩大厅</a>
+		</div>
+		<div class="nav_lsit nav_active">
+			<a href="###" class="nav_a"><img src="images/34.png" alt="" /></a>
+			<a href="###" class="text-a">合买跟单</a>
+		</div>
+		<div class="nav_lsit">
+			<a href="###" class="nav_a"><img src="images/36.png" alt="" /></a>
+			<a href="###" class="text-a">开奖公告</a>
+		</div>
+		<div class="nav_lsit">
+			<a href="login.html" class="nav_a"><img src="images/38.png" alt="" /></a>
+			<a href="login.html" class="text-a">会员中心</a>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){  
+ 		$('.nav_lsit').click(function(){
+			$(this).addClass('nav_active').siblings().removeClass('nav_active')
+		})
+	});
+	var swiper = new Swiper('.swiper-container', {
+		pagination: {
+			el: '.swiper-pagination',
+		},
+	});
+	(function() {
+		var header = new Headroom(document.querySelector("#header"), {
+			tolerance: 5,
+			offset : 100,
+			classes: {
+				initial: "animated",
+				pinned: "slideDown",
+				unpinned: "slideUp"
+			}
+		});
+		header.init();
+
+		var bttHeadroom = new Headroom(document.getElementById("btt"), {
+			tolerance : 0,
+			offset : 1000,
+			classes : {
+				initial : "slide",
+				pinned : "slide--reset",
+				unpinned : "slide--down"
+			}
+		});
+		bttHeadroom.init();
+	}());
+</script>
+</html>
